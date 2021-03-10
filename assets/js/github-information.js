@@ -15,7 +15,7 @@ function userInformationHTML(user) {
         </div>`;
 }
 
-function repoInformation(repos) {
+function repoInformationHTML(repos) {
     if (repos.length == 0) {
         return `<div class="clearfix repo-list">No repos!</div>`;
     }
